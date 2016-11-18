@@ -1,0 +1,827 @@
+﻿html {
+    border-radius: 0;
+}
+
+body {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    border: 0px;
+    margin: auto;
+    color: #363636;
+    text-rendering: optimizeLegibility;
+    max-width: 1480px;
+}
+
+a, a:hover, a:active, a:visited {
+    text-decoration: none;
+    background-color: transparent;
+    color: #3b5998;
+}
+
+    a:hover {
+        color: #0066FF;
+    }
+
+    a:active {
+        color: #193EAC;
+    }
+
+.list {
+    padding-left: 15px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+h1 {
+    font-family: RobotoCondensed-Regular, 'Century Gothic', 'Core Sans N 25', 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    color: #CC0000;
+    font-size: 2.2em;
+}
+
+h2, h3 {
+    font-family: RobotoCondensed-Regular, 'Century Gothic', 'Core Sans N 25', 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: #CC0000;
+    font-size: 2em;
+}
+
+h3 {
+    color: #22356b;
+    font-size: 1.2em;
+}
+
+h4 {
+    font-family: RobotoCondensed-Regular, 'Century Gothic', 'Core Sans N 25', 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    color: #22356b;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+    font-size: 1.4em;
+}
+
+h5 {
+    font-family: RobotoCondensed-Regular, 'Core Sans N 25', 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    color: #22356b;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.alignRight {
+    float: right;
+}
+
+.media {
+    margin-top: 0px; /*Bootstrap override*/
+}
+
+.noPadding {
+    padding: 0px; /*Bootstrap override*/
+}
+
+
+.thumbnail {
+    border-radius: 0px;
+}
+
+
+
+
+
+
+/* -------------------   NAVBAR  ------------------- */
+
+#logo {
+    background-color: white;
+}
+
+#customNav {
+    margin-bottom: 8px;
+}
+
+
+#companyDiv {
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    display: inline-block;
+    font-family: 'century-gothic', 'Muli','Franklin Gothic Medium', 'Roboto Condensed', Gadugi, 'Gill Sans MT', Geneva, Tahoma, sans-serif;
+}
+
+#companyText {
+    display: inline;
+}
+
+#companyName {
+    font-size: 2.5em;
+    color: darkred;
+}
+
+#dotcom {
+    font-size: 1.7em;
+    color: white;
+}
+
+
+#company a {
+}
+
+#pageHeadingDiv {
+    display: inline-block;
+}
+/*
+#pageHeadingText { Just vertical centering
+    margin: 0;
+    color: #6685A3;
+    margin-left: 5px;
+    font-size: 1.7em;
+    font-weight: 600;
+    font-family: 'century-gothic', 'Muli','Franklin Gothic Medium', 'Roboto Condensed', Gadugi, 'Gill Sans MT', Geneva, Tahoma, sans-serif;
+}*/
+
+
+@media only screen and (max-width:480px) {
+
+    .contactText {
+        display: none;
+    }
+
+
+    .col-xs-1 .col-xs-2 .col-xs-3 .col-xs-4 .col-xs-5 .col-xs-6 .col-xs-7 .col-xs-8 .col-xs-9 .col-xs-10 .col-xs-11 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #logo {
+    }
+
+    #pageHeadingText {
+        color: white;
+    }
+
+    .thumbnailDescription {
+        display: none;
+    }
+
+    .websitePreview {
+        /* display: none; /*Develop a better solution for this, like turing off ng-include or setting the ng-include page as a variable that isn't set on smaller screens*/
+    }
+}
+
+@media screen and (max-width: 480px) and (min-resolution: 1.5dppx) { /*such as a Huawei G7 with a DPR of 720 wide*/
+}
+
+.thumbnailDescription {
+    display: none;
+}
+#navLinksSection{
+
+      line-height: 50px;
+          height: 50px;
+}
+
+
+.navLinks a, a:hover, a:active, a:visited {
+            color: white;
+}
+
+    .navLinks .media {
+         background-color: darkred;
+        width: 31%;
+        display: inline-block;
+        margin: 0px;
+            
+    }
+
+    .navLinks .media-object {
+        line-height: 50px;
+        text-align: center;
+          padding-left: 15px;
+    padding-right: 5px;
+    }
+
+    .navLinks .icon_sosa {
+        /*color: #337ab7; Default bootstrap link colour*/
+        font-size: 2.5em;
+    }
+
+        .navLinks .icon_sosa a:hover {
+            color: orangered;
+        }
+    
+  
+}
+
+/* -------------------   /NAVBAR  ------------------- */
+
+#allContentUnderNavBar {
+    background-color: #F2F2F3;
+    padding-top: 10px;
+}
+
+/* -------------------   WELCOME AND IMAGE BOX------------------- */
+#welcomeAndImageBox {
+}
+
+.welcome {
+    margin-bottom: 5px;
+}
+
+.item {
+    width: 100%;
+}
+
+#welcomeHeading {
+    color: #22356b;
+    font-family: 'Century Gothic', Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    font-size: 1.5em;
+    line-height: 5px;
+}
+
+#photoDescription {
+    color: white;
+    margin-top: -22px;
+    padding-left: 5px;
+}
+
+
+
+
+.carousel-caption {
+    bottom: 0px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    margin-left: 60%;
+    width: 40%;
+    left: 0%;
+    right: 0%;
+    padding: 10px;
+    text-align: left;
+    font-family: 'Century Gothic', 'Muli','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.imageWithCenteredText {
+    /*Vertical Bit*/
+    position: relative;
+}
+
+.carousel-caption-centerText .textOnImage {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    font-family: 'Century Gothic', 'Muli','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    color: white;
+    padding: 8px;
+    width: 40%;
+    text-align: center;
+    /*Vertical Bit*/
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    /*Horizontal Bit*/
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-52%, -50%);
+}
+
+
+.darkImageOverlayT {
+    /*   background: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/shoes.jpg); /* For Safari 5.1 to 6.0 */
+    /*  background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/shoes.jpg);/* For Opera 11.1 to 12.0 */
+    /*  background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/shoes.jpg); /* For Firefox 3.6 to 15 */
+    /*  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/shoes.jpg); /* Standard syntax */
+    background-color: black;
+}
+
+.imageLayerOne {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+    .imageLayerOne img {
+        display: block;
+    }
+
+    .imageLayerOne .img-wrap {
+        background-color: black;
+    }
+
+    .imageLayerOne img {
+        opacity: 0.4;
+    }
+
+@media only screen and (min-width: 961px) {
+    body {
+        -webkit-zoom: 130%;
+    }
+}
+
+@media only screen and (max-width: 320px) { /* Hide photo captions on extra small screens*/
+    .carousel-caption {
+        display: none;
+    }
+}
+/*The below code creates an intrinic div, with centered content
+#showGallerySlide {
+    position: relative;
+    padding-bottom: 60%;
+    height: 0;
+    background: #E9EAEA;
+}
+
+#showGallerySlideInner {
+    position: absolute;
+    top: 35%; /*For the text and icon to go in the vetical center
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#showGallerySlideInnerContent {
+    position: relative;
+    height: 0;
+    color: #CC0000;
+    text-align: center;
+}
+CHECK IF I SHOULD I USE BELOW?
+#showGallerySlideInner {
+    position: absolute;
+    transform: translateY(-60%);
+    padding: 15px;
+    color: #22356b;
+}*/
+
+/* ------------------- /END OF WELCOME AND IMAGE BOX------------------- */
+
+
+
+#areasCovered {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/* -------------------  /CUSTOM MEDIA BOXES ------------------- */
+
+
+/* -------------------   CONTACT FIELDS ------------------- */
+.contactFields {
+       line-height: 50px;
+          height: 50px;
+}
+
+    .contactFields .media {
+        margin-top: 5px;
+        border: 1px solid #D9E0E8;
+                  background-color:white;
+    }
+
+    .contactFields .media-object {
+        background-color: #E9EAEA;
+        line-height: 50px;
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+
+    .contactFields .icon_sosa {
+        /*color: #337ab7; Default bootstrap link colour*/
+        font-size: 2.5em;
+        color: #3b5998;
+    }
+
+        .contactFields .icon_sosa a:hover {
+            color: blue;
+        }
+
+      .contactFields  .media-body{
+
+
+      }
+
+.clock {
+}
+
+.openingHours {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    line-height: 20px;
+}
+
+.dummySpan {
+    color: #F2F2F3;
+}
+
+/* -------------------   /CONTACT FIELDS ------------------- */
+
+
+/* -------------------   SERVICES ------------------- */
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    #welcomeAndServices {
+        margin-top: -105px;
+    }
+}
+
+.services {
+    border-left: 1px solid #D9E0E8;
+    border-right: 1px solid #D9E0E8;
+    border-bottom: 1px solid #D9E0E8;
+    background-color: white;
+    margin-bottom: 10px;
+    /* background-color:#D9E0E8; similar to above, but darker */
+    padding: 15px;
+}
+
+.customCollaspeSection {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.servicesHeading {
+    font-family: 'Century Gothic', Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    background-color: #CC0000;
+    padding: 2px;
+    font-size: 1.8em;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+
+#servicesSubHeading {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-family: Calibri, Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    text-align: center;
+}
+
+.services .media-heading {
+    padding-top: 20px;
+}
+
+
+#generalServicesDescription {
+    color: #0066FF;
+}
+
+.media-left .services {
+    width: 60%;
+}
+
+.services .media {
+    border: 2px solid #D9E0E8;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.services .media-object {
+    /*light blue: background-color: #e3eff8; */
+    background-color: white;
+    width: 100px;
+    text-align: center;
+}
+
+.services .fa {
+    color: #CC0000;
+    line-height: 100px;
+}
+
+.services .media-body {
+    padding-bottom: 10px;
+}
+
+.media-paragraphs {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.quote {
+    font-style: italic;
+}
+
+aside {
+    padding-left: 15px;
+}
+
+.services .glyphicon {
+    top: 4px; /* override of bootstrap's default of 1px */
+    padding-left: 5px;
+    padding-right: 10px;
+    font-size: 1.2em;
+}
+
+.showHideTextAndArrow {
+    float: right;
+    color: #CC0000;
+}
+
+    .showHideTextAndArrow:hover {
+        color: #0066FF;
+    }
+
+    .showHideTextAndArrow:active {
+        color: #193EAC;
+    }
+
+    .showHideTextAndArrow:visited {
+        color: #CC0000;
+    }
+
+/* -------------------   /SERVICES ------------------- */
+
+/* -------------------   FACEBOOK ------------------- */
+#fb-root {
+    background-color: #E9EAEA;
+}
+
+#facebookHeading {
+    background-color: #E9EAEA;
+    padding-left: 5px;
+    border: 1px solid #D9E0E8;
+}
+
+#faceBookColumn {
+    margin-top: 10px;
+}
+/* -------------------   /FACEBOOK ------------------- */
+
+/* -------------------   SHARE LINKS ------------------- */
+#shareLinks {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    #shareLinks .media {
+        margin-bottom: 5px;
+    }
+
+@media only screen and (max-width: 767px) {
+    #shareLinks .media-body {
+        width: 60%;
+    }
+}
+
+
+#shareOnTwitter {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#shareOnGooglePlus {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.tweet {
+    color: #55acee;
+}
+
+.google_plus {
+    font-size: 1.9em;
+    color: white;
+    background-color: #dd4b39;
+    border-radius: 2px;
+    padding-top: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    margin-right: 5px;
+}
+
+/* -------------------   /SHARE LINKS ------------------- */
+
+footer {
+    border-top: 1px solid #D9E0E8;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: .8em;
+    text-align: center;
+}
+
+
+/* ############### GALLERY.HTML Page ############### */
+
+
+.wrap {
+    overflow: hidden;
+    margin: 10px;
+}
+
+    .wrap .row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+.box {
+    float: left;
+    position: relative;
+    width: 20%;
+    padding-bottom: 20%;
+}
+
+
+
+.boxInner {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    overflow: hidden;
+}
+
+    .boxInner img {
+        width: 100%;
+    }
+/*
+@media only screen and (min-width : 481px) {
+    .boxInner .titleBox {
+        position: absolute;
+        bottom: 4px;
+        left: 4px;
+        right: 4px;
+        margin-bottom: -50px;
+        background: #000;
+        background: rgba(0, 0, 0, 0.5);
+        color: #FFF;
+        padding: 10px;
+        text-align: center;
+        -webkit-transition: all 0.2s ease-out;
+        -moz-transition: all 0.2s ease-out;
+        -o-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+    }*/
+
+body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {
+    margin-bottom: 0;
+}
+
+}
+
+
+@media only screen and (max-width : 480px) and (min-width : 321px) {
+    /* Smartphone view: 1 tile */
+    .box {
+        width: 50%;
+        padding-bottom: 50%;
+    }
+}
+
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+    /* Tablet view: 2 tiles */
+    .box {
+        width: 50%;
+        padding-bottom: 50%;
+    }
+}
+
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+    /* Small desktop / ipad view: 3 tiles */
+    .box {
+        /* width: 33.3%;
+            padding-bottom: 33.3%;*/
+        width: 25%;
+        padding-bottom: 25%;
+    }
+}
+/*
+        @media only screen and (max-width : 1290px) and (min-width : 1051px) {
+          /* Medium desktop: 4 tiles
+          .box {
+            width: 25%;
+            padding-bottom: 25%;
+          }
+        }*/
+
+
+/*
+.percentageBorder{
+    width:90%;
+    border-bottom: 1px solid #3b5998;
+    border-bottom-width:thin;
+}*/
+
+.projectTypeHeadingDiv {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #CC0000;
+    padding-left: 10px;
+    border-top: 1px solid #CC0000;
+    padding-top: 15px;
+}
+
+    .projectTypeHeadingDiv .fa-home {
+        padding-left: 15px; /*extra padding because the home icon's roof sticks out more than the apartment icon */
+    }
+
+    .projectTypeHeadingDiv .media-object {
+        padding-right: 10px; /*extra padding because of bug with Android Browser */
+    }
+
+.projectTypeHeadingText {
+}
+
+#residentialSection {
+    margin-top: 15px;
+}
+
+.projectThumbnail {
+}
+
+.projectHeadingBoxInner {
+    background-color: white;
+    font-family: RobotoCondensed-Regular;
+    font-size: 1.6em;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.boxInnerText {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-60%);
+    padding: 15px;
+    color: #22356b;
+}
+
+@font-face {
+    font-family: 'Florsn01';
+    src: url('../fonts/Florsn01.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoCondensed-Regular';
+    src: url('../fonts/RobotoCondensed-Regular.ttf') format('truetype');
+}
+
+
+.glyphicon-triangle-right {
+    font-size: 0.8em;
+}
+
+.thumbnail {
+    padding: 2px; /*BS Override (of 4px) */
+}
+
+#commercialSection {
+    border-top: 1px solid #CC0000;
+    padding-top: 10px;
+}
+
+
+
+
+@media only screen and (max-width : 320px) {
+    /* Smartphone view: 1 tile */
+    .box {
+        width: 100%;
+        padding-bottom: 100%;
+    }
+
+    .projectHeadingBox {
+        padding-bottom: 20%;
+    }
+
+
+    .boxInnerText {
+        position: absolute;
+        top: -20%;
+        transform: translateY(0%);
+        padding-bottom: 5px;
+    }
+
+    .glyphicon-triangle-right {
+        display: none;
+    }
+}
