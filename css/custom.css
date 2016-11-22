@@ -205,7 +205,6 @@ img {
 
     .navLinks .media {
          background-color: darkred;
-        width: 31%;
         display: inline-block;
         margin: 0px;
             
@@ -648,8 +647,6 @@ footer {
     width: 20%;
     padding-bottom: 20%;
 }
-
-
 
 .boxInner {
     position: absolute;
