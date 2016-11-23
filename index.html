@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="initial-scale=1.0">
-    <meta name="Description" content="Specialising in painting and decorating, servicing all types of homes and businesses.">
+    <meta name="Description" content="Ryan's pub, the Moss House, offering quality accomodation in Bunclody at affordable prices.">
     <title>The Moss House</title>
     <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
     <!--MAIN CSS-------------------------------------->
@@ -30,15 +30,14 @@
     <!--/Picture Fill-->
 </head>
 <body onload="fnExpandReferencesDiv();">
-    <div id="entirePage">
 
+    <div id="entirePage" class="container-fluid">
 
         <div id="customNav">
             <!--NavBar-->
-
             <div class="row">
 
-                <div class="col-xs-12 col-sm-7 col-md-8 col-lg-10" id="logo">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="logo">
 
                     <div id="companyDiv">
                         <a href="#">
@@ -49,18 +48,26 @@
                     </div>
 
                     <div id="pageHeadingDiv">
-                        <!--
-                        <a href="#almax#partialsAnchor" ng-click="goToAnchor()">
-                            <span id="pageHeadingText">Web&nbsp;Design </span>
-                        </a>-->
-                    </div>
-                    <div>
-                        <img src="galleryResources/galleryImages/Gallery-Slide-Overview.jpg" />
                     </div>
 
                 </div><!--/col-->
 
+            </div> <!-- /row -->
+        </div> <!-- /customNav -->
+
+        <div id="allContentUnderNavBar">
+
+            <!-- Main Image & Contact Fields -->
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-7 col-md-8 col-lg-10" id="homePageImage">
+                    <div>
+                        <img src="galleryResources/galleryImages/Gallery-Slide-Overview.jpg" />
+                    </div>
+                </div><!--/col homePageImage-->
                 <!--contactFields-->
+
+
                 <div class="col-xs-12 col-sm-5 col-md-4 col-lg-2 customMediaBoxes contactFields">
 
                     <!--<div id="areasCovered">Serving Dublin and surrounding areas.</div>-->
@@ -103,113 +110,101 @@
                 </div> <!-- /col -->
                 <!--/contactFields-->
 
-            </div> <!-- /row -->
-        </div> <!-- /customNav -->
+            </div> <!-- /row: Main Image & Contact Fields-->
+            <!--   Row 2: Column 1  Services -->
 
+            <div class="row centerText">
+                <div id="welcomeAndServices" class="col-xs-12 col-sm-12 col-md-9 col-lg-8 ">
 
-        <div id="allContentUnderNavBar">
-            <div class="container-fluid">
+                    <div id="servicesSubHeading">
 
+                        <div class="welcome">
+                            <span id="welcomeHeading">Welcome</span> and thanks for visiting The&nbsp;Moss&nbsp;House. Here you will find warm, friendly owners, eager to make sure you enjoy your stay right in the heart of the picturesque town of Bunclody.
+                        </div>
+                    </div>
+
+                </div><!--/welcomeAndServices Column -->
             </div>
 
-            <span class="dummySpan">.</span><!--For some reason this pushes the facebook column up, underneath the contacts div in Chrome-->
-            <!--</div> --/ROW 1-->
-            <!------------------- ROW 2----------------
-            <div class="row">>
+            <!--/navLinksSection-->
+            <div class="row">
+                <div id="navLinksSection">
 
-                <!--   Row 2: Column 1  Services -->
-            <div id="welcomeAndServices" class="col-xs-12 col-sm-12 col-md-12 col-lg-12  ">
-                <div class="services">
-                    <!--<div class="servicesHeading">
-                        Services<span class="icon_sosa eight-point-cog"> </span>
+                    <div class="centerText">
+                        <!--Note the the col itself will still have padding-->
+
+                        <div class="navLinks row">
+
+                            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 navMediaBox">
+                                <a href="tel:+353863927014">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <span class="media-object icon_sosa landline"></span>
+                                        </div>
+                                        <div class="media-body">
+                                            Rooms
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                                <a href="">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <span class="media-object icon_sosa landline"></span>
+                                        </div>
+                                        <div class="media-body">
+                                            Nearby
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                                <a href="">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <span class="media-object icon_sosa landline"></span>
+                                        </div>
+                                        <div class="media-body">
+                                            Location
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                                <a href="">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <span class="media-object icon_sosa landline"></span>
+                                        </div>
+                                        <div class="media-body">
+                                            Bar &amp; Music
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+
                     </div>
 
-                    <div id="servicesSubHeading">-->
-                    <div class="welcome">
-                        <span id="welcomeHeading">Welcome</span> and thanks for visiting The&nbsp;Moss&nbsp;House. Here you will find warm, friendly owners, eager to make sure you enjoy your stay right in the heart of the picturesque town of Bunclody.
-                    </div>
+                    <div class="row">
+                        <!--/Row 2 -->
+                        <!--Footer -->
+                        <footer>
+                            Design by: <a href=http://www.bweb.ie>BWeb.ie</a>
+                        </footer>
+                    </div><!--/Footer -->
                 </div>
-
-            </div><!--/welcomeAndServices Column -->
-
-
-
-
-
-            <script>
-
-            </script>
-
-
-
-
-
-            <div id="navLinksSection">
-
-                <div class="centerText ">
-                    <!--Note the the col itself will still have padding-->
-
-                    <div class="navLinks row">
-
-                        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                            <div class="media">
-                                <div class="media-left">
-                                    <a href="tel:+353863927014"><span class="media-object icon_sosa landline"></span></a>
-                                </div>
-                                <div class="media-body">
-                                    <a href="">Rooms</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 noPadding">
-                            <div class="media">
-                                <div class="media-left">
-                                    <a href=""><span class="media-object icon_sosa landline"></span></a>
-                                </div>
-                                <div class="media-body">
-                                    <a href="">Nearby</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                            <div class="media">
-                                <div class="media-left">
-                                    <a href=""><span class="media-object icon_sosa landline"></span></a>
-                                </div>
-                                <div class="media-body">
-                                    <a href="">Location</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                            <div class="media">
-                                <div class="media-left">
-                                    <a href=""><span class="media-object icon_sosa landline"></span></a>
-                                </div>
-                                <div class="media-body">
-                                    <a href="">Bar &amp; Music</a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div class="row">
-                    <!--/Row 2 -->
-                    <!--Footer -->
-                    <footer>
-                        Design by: <a href=http://www.bweb.ie>BWeb.ie</a>
-                    </footer>
-                </div><!--/Footer -->
             </div>
-        </div><!-- /.container-fluid -->
-    </div><!--/allContentUnderNavBar-->
-    </div><!--/entirePage-->
+
+        </div><!--/allContentUnderNavBar-->
+
+    </div><!--/entirePage /.container-fluid-->
+
     <script src="scripts/main.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <!--<script src="js/twitterFeed.js"></script>-->
