@@ -16,8 +16,6 @@ body {
 
 a, a:hover, a:active, a:visited {
     text-decoration: none;
-    background-color: transparent;
-    color: #3b5998;
 }
 
     a:hover {
@@ -55,12 +53,13 @@ h2, h3 {
 }
 
 h2 {
-    color: #CC0000;
+    color: #22356b;
     font-size: 2em;
+    margin-bottom: 10px;
 }
 
 h3 {
-    color: #22356b;
+    color: darkred;
     font-size: 1.2em;
 }
 
@@ -88,10 +87,11 @@ img {
     float: right;
 }
 
-.row{
-    margin-left:0px;
-    margin-right:0px;
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
 }
+
 .media {
     margin-top: 0px; /*Bootstrap override*/
 }
@@ -100,16 +100,17 @@ img {
     padding: 0px; /*Bootstrap override*/
 }
 
+
 .thumbnail {
     border-radius: 0px;
 }
 
- .col-xs-1 .col-xs-2 .col-xs-3 .col-xs-4 .col-xs-5 .col-xs-6 .col-xs-7 .col-xs-8 .col-xs-9 .col-xs-10 .col-xs-11 {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
+.col-xs-1 .col-xs-2 .col-xs-3 .col-xs-4 .col-xs-5 .col-xs-6 .col-xs-7 .col-xs-8 .col-xs-9 .col-xs-10 .col-xs-11 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
-/* -------------------   NAVBAR  ------------------- */
+/* -------------------   TOP NAVBAR  ------------------- */
 
 #logo {
     background-color: white;
@@ -168,7 +169,7 @@ img {
     }
 
 
-   
+
     #logo {
     }
 
@@ -196,42 +197,48 @@ img {
 
 /* -------------------   /Nav Links  ------------------- */
 
-#navLinksSection{
-
-      line-height: 50px;
-          height: 50px;
+#centerNavSection {
 }
 
-
-.navLinks a, a:hover, a:active, a:visited {
-            color:#E9EAEA;
+.centerNavBar {
+    line-height: 50px;
+    height: 50px;
 }
 
-    .navLinks .media {
-         background-color: darkred;
+    .centerNavBar .media {
+        background-color: darkred;
         display: inline-block;
         margin: 0px;
-            
+        color: #E9EAEA;
+        border-left: 1px solid #E9EAEA;
     }
 
-    .navLinks .media-object {
-        line-height: 50px;
-        text-align: center;
-          padding-left: 15px;
-    padding-right: 5px;
-    }
-
-    .navLinks .icon_sosa {
-        /*color: #337ab7; Default bootstrap link colour*/
-        font-size: 2.5em;
-    }
-
-        .navLinks .icon_sosa a:hover {
-            color: orangered;
-        }
-    
-  
+#firstCenterNavBarMediaBox {
+    border-left: none;
 }
+
+.centerNavBar .media:link,
+.centerNavBar .media:visited,
+.centerNavBar .media:hover,
+.centerNavBar .media:active {
+    background-color: #CC0000;
+}
+
+.centerNavBar .media-object {
+    line-height: 50px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+.centerNavBar .icon_sosa {
+    /*color: #337ab7; Default bootstrap link colour*/
+    font-size: 2.5em;
+}
+
+    .centerNavBar .icon_sosa:hover {
+    }
+
 
 
 #allContentUnderNavBar {
@@ -389,14 +396,12 @@ CHECK IF I SHOULD I USE BELOW?
 
 /* -------------------   CONTACT FIELDS ------------------- */
 .contactFields {
- 
 }
 
     .contactFields .media {
-             
         margin-top: 5px;
         border: 1px solid #D9E0E8;
-                  background-color:white;
+        background-color: white;
     }
 
     .contactFields .media-object {
@@ -418,11 +423,10 @@ CHECK IF I SHOULD I USE BELOW?
             color: blue;
         }
 
-      .contactFields  .media-body{
-           line-height: 50px;
-          height: 50px;
-
-      }
+    .contactFields .media-body {
+        line-height: 50px;
+        height: 50px;
+    }
 
 .clock {
 }

@@ -141,16 +141,17 @@
 
             <!--/navLinksSection-->
             <div class="row">
-                <div id="navLinksSection">
+
+                <div id="centerNavSection">
 
                     <div class="centerText">
                         <!--Note the the col itself will still have padding-->
 
-                        <div class="navLinks row">
+                        <div class="centerNavBar row">
 
-                            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 navMediaBox">
+                            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 noPadding" >
                                 <a href="#rooms">
-                                    <div class="media">
+                                    <div class="media" id="firstCenterNavBarMediaBox">
                                         <div class="media-left">
                                             <span class="media-object icon_sosa landline"></span>
                                         </div>
@@ -161,11 +162,11 @@
                                 </a>
                             </div>
 
-                            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 noPadding">
                                 <a href="#bar">
                                     <div class="media">
                                         <div class="media-left">
-                                            <span class="media-object icon_sosa landline"></span>
+                                            <span class="media-object icon_sosa landline noPadding"></span>
                                         </div>
                                         <div class="media-body">
                                             Bar &amp; Music
@@ -174,7 +175,7 @@
                                 </a>
                             </div>
 
-                            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 noPadding">
                                 <a href="#nearby">
                                     <div class="media">
                                         <div class="media-left">
@@ -187,7 +188,7 @@
                                 </a>
                             </div>
 
-                            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 noPadding">
                                 <a href="#location">
                                     <div class="media">
                                         <div class="media-left">
@@ -203,11 +204,13 @@
                         </div>
 
                         <!-- <div ng-include="'infoLinks/partials/bar.html'"></div> This works but don't need it, for now anyway, because of the ng-view, used below -->
-                        <div ng-view>
-
+                        <div class=row>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div ng-view></div>
+                            </div>
                         </div>
 
-                    </div>
+                    </div><!--/centerText>-->
 
                     <div class="row">
                         <!--/Row 2 -->
