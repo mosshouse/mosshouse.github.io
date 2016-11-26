@@ -100,14 +100,21 @@ img {
     padding: 0px; /*Bootstrap override*/
 }
 
+.noMargin{
+    margin:0px;
+}
 
 .thumbnail {
     border-radius: 0px;
 }
 
 .col-xs-1 .col-xs-2 .col-xs-3 .col-xs-4 .col-xs-5 .col-xs-6 .col-xs-7 .col-xs-8 .col-xs-9 .col-xs-10 .col-xs-11 {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.entirePage{
+    padding:0px; /*Bootstrap override of the conatainer-fluid class. Container fluid was added because Bootstrap web pages states; */
 }
 
 /* -------------------   TOP NAVBAR  ------------------- */
@@ -117,7 +124,7 @@ img {
 }
 
 #customNav {
-    margin-bottom: 8px;
+
 }
 
 
@@ -193,58 +200,8 @@ img {
     display: none;
 }
 
-/* -------------------   /NAVBAR  ------------------- */
+/* -------------------   /NAVBAR  ------------------servicesSubHeading- */
 
-/* -------------------   /Nav Links  ------------------- */
-
-#centerNavSection {
-}
-
-.centerNavBar {
-    line-height: 50px;
-    height: 50px;
-}
-
-    .centerNavBar .media {
-        background-color: darkred;
-        display: inline-block;
-        margin: 0px;
-        color: #E9EAEA;
-        border-left: 1px solid #E9EAEA;
-    }
-
-#firstCenterNavBarMediaBox {
-    border-left: none;
-}
-
-.centerNavBar .media:link,
-.centerNavBar .media:visited,
-.centerNavBar .media:hover,
-.centerNavBar .media:active {
-    background-color: #CC0000;
-}
-
-.centerNavBar .media-object {
-    line-height: 50px;
-    text-align: center;
-    padding-left: 15px;
-    padding-right: 5px;
-}
-
-.centerNavBar .icon_sosa {
-    /*color: #337ab7; Default bootstrap link colour*/
-    font-size: 2.5em;
-}
-
-    .centerNavBar .icon_sosa:hover {
-    }
-
-
-
-#allContentUnderNavBar {
-    background-color: #F2F2F3;
-    padding-top: 10px;
-}
 
 /* -------------------   WELCOME AND IMAGE BOX------------------- */
 
@@ -393,9 +350,12 @@ CHECK IF I SHOULD I USE BELOW?
 
 /* -------------------  /CUSTOM MEDIA BOXES ------------------- */
 
+.media-object{
 
+}
 /* -------------------   CONTACT FIELDS ------------------- */
 .contactFields {
+        padding-top: 10px;
 }
 
     .contactFields .media {
@@ -444,6 +404,64 @@ CHECK IF I SHOULD I USE BELOW?
 /* -------------------   /CONTACT FIELDS ------------------- */
 
 
+/* -------------------   Center Nav Links  ------------------- */
+
+#centerNavSection {
+    margin-top:15px;
+}
+
+.centerNavBar {
+ 
+    padding-left:13px;
+    padding-right:13px;
+}
+
+    .centerNavBar .media {
+        background-color: darkred;
+        display: inline-block;
+        margin: 0px;
+        color: #E9EAEA;
+        border-left: 2px solid #E9EAEA;
+        border-right: 2px solid #E9EAEA;
+    }
+    /*any navBar box that is on the left hand side (depending on the viewport width) will have a border of 1 + the padding-left from the 'centerNavBar' (above) of 14 to = 15pt padding*/
+
+
+.centerNavBar .media:link,
+.centerNavBar .media:visited,
+.centerNavBar .media:hover,
+.centerNavBar .media:active {
+    background-color: #CC0000;
+}
+
+.centerNavBar .media-object {
+   line-height: 50px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+.centerNavBar .media-body{
+ line-height: 50px;
+        height: 50px;
+        font-family: RobotoCondensed-Regular, 'Century Gothic', 'Core Sans N 25', 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    font-size: 1.5em;
+        }
+
+.centerNavBar .icon_sosa {
+    /*color: #337ab7; Default bootstrap link colour*/
+    font-size: 2.5em;
+}
+
+    .centerNavBar .icon_sosa:hover {
+    }
+
+/* -------------------   /Center Nav Links  ------------------- */
+
+
+#allContentUnderNavBar {
+    background-color: #F2F2F3;
+
+}
 /* -------------------   SERVICES ------------------- */
 
 
@@ -474,13 +492,11 @@ CHECK IF I SHOULD I USE BELOW?
     text-align: center;
 }
 
-#servicesSubHeading {
-    margin-bottom: 5px;
+#welcomeSection {
+  
     font-size: 1.2em;
-    padding-top: 15px;
+    padding-top: 25px;
     padding-bottom: 10px;
-    padding-left: 2px;
-    padding-right: 2px;
     font-family: Calibri, Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
     text-align: center;
 }
