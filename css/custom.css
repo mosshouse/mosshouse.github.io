@@ -49,7 +49,7 @@ h2, h3 {
     font-family: RobotoCondensed-Regular, 'Century Gothic', 'Core Sans N 25', 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
     padding-top: 0px;
     padding-bottom: 0px;
-    margin-bottom: 0px;
+
 }
 
 h2 {
@@ -61,6 +61,7 @@ h2 {
 h3 {
     color: darkred;
     font-size: 1.2em;
+        margin-bottom: 5px;
 }
 
 h4 {
@@ -703,7 +704,6 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
     margin-bottom: 0;
 }
 
-}
 
 
 @media only screen and (max-width : 480px) and (min-width : 321px) {
