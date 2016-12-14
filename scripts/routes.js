@@ -5,7 +5,7 @@ angular.module('router', ['ngRoute'])
                 .when('/rooms', { templateUrl: 'infoLinks/partials/rooms.html' })
          .when('/bar', { templateUrl: 'infoLinks/partials/bar.html' })
         .when('/location', { templateUrl: 'infoLinks/partials/location.html' })
-        .when('/nearby', { templateUrl: 'infoLinks/partials/nearby.html' })
+        .when('/attractions', { templateUrl: 'infoLinks/partials/attractions.html' })
         .when('/test', { template: '<h3>Test Page</h3>' })
 
     .otherwise({ templateUrl: 'infoLinks/partials/rooms.html' });

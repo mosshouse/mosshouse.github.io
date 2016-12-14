@@ -40,23 +40,22 @@ ul {
 }
 
 h1 {
-    font-family: RobotoCondensed-Regular, 'Century Gothic', 'Core Sans N 25', 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
-    color: #CC0000;
-    font-size: 2.2em;
-}
-
-h2, h3 {
-    font-family: RobotoCondensed-Regular, 'Century Gothic', 'Core Sans N 25', 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
-    padding-top: 0px;
-    padding-bottom: 0px;
-
-}
-
-h2 {
+     font-family: RobotoCondensed-Regular, 'Century Gothic', 'Core Sans N 25', 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
     color: #22356b;
     font-size: 2em;
     margin-bottom: 10px;
 }
+
+h2, h3 {
+    font-family: RobotoCondensed-Regular, 'Century Gothic', 'Core Sans N 25', 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+        font-size: 1.4em;
+    padding-top: 0px;
+    padding-bottom: 0px;
+      margin-bottom: 6px;
+       color: darkred;
+
+}
+
 
 h3 {
     color: darkred;
@@ -107,11 +106,6 @@ img {
 
 .thumbnail {
     border-radius: 0px;
-}
-
-ol{ /*User agent override*/
-
-    padding-left:15px;
 }
 
 .col-xs-1 .col-xs-2 .col-xs-3 .col-xs-4 .col-xs-5 .col-xs-6 .col-xs-7 .col-xs-8 .col-xs-9 .col-xs-10 .col-xs-11 {
@@ -208,11 +202,7 @@ ol{ /*User agent override*/
 
 /* -------------------   /NAVBAR  ------------------servicesSubHeading- */
 
-#allContentUnderNavBar {
-    background-color: #f6f1ed;
-        
 
-}
 /* -------------------   WELCOME AND IMAGE BOX------------------- */
 
 .welcome {
@@ -235,8 +225,6 @@ ol{ /*User agent override*/
     margin-top: -22px;
     padding-left: 5px;
 }
-
-
 
 
 .carousel-caption {
@@ -370,12 +358,11 @@ CHECK IF I SHOULD I USE BELOW?
 
     .contactFields .media {
         margin-top: 5px;
-        border: 1px solid #D9E0E8;
+       border: 1px solid #D9E0E8; 
         background-color: white;
     }
 
     .contactFields .media-object {
-        /*Mid greybackground-color: #e9e6e4;*/
         background-color: #E9EAEA;
         line-height: 50px;
         text-align: center;
@@ -386,8 +373,10 @@ CHECK IF I SHOULD I USE BELOW?
 
     .contactFields .icon_sosa {
         /*color: #337ab7; Default bootstrap link colour*/
+         /* color: #3b5998; blue */
+         color: darkred;
         font-size: 2.5em;
-        color: #3b5998;
+      
     }
 
         .contactFields .icon_sosa a:hover {
@@ -435,7 +424,7 @@ CHECK IF I SHOULD I USE BELOW?
         border-left: 2px solid #E9EAEA;
         border-right: 2px solid #E9EAEA;
     }
-    /*any navBar box that is on the left hand side (depending on the viewport width) will have a border of 1 + the padding-left from the 'centerNavBar' (above) of 14 to = 15pt padding*/
+    /*any navBar box that is on the left hand side (depending on the viewport width) will have a border of 2 + the padding-left from the 'centerNavBar' (above) of 13 to = 15pt padding*/
 
 
 .centerNavBar .media:link,
@@ -461,6 +450,7 @@ CHECK IF I SHOULD I USE BELOW?
 .centerNavBar .icon_sosa {
     /*color: #337ab7; Default bootstrap link colour*/
     font-size: 2.5em;
+    display:none; /*Remove this once new vectors are added*/
 }
 
     .centerNavBar .icon_sosa:hover {
@@ -469,7 +459,10 @@ CHECK IF I SHOULD I USE BELOW?
 /* -------------------   /Center Nav Links  ------------------- */
 
 
+#allContentUnderNavBar {
+    background-color: #F2F2F3;
 
+}
 /* -------------------   SERVICES ------------------- */
 
 
@@ -849,14 +842,3 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
         display: none;
     }
 }
-
-/*Partials - Location.html*/
-#directionsTextSection{
-    margin-bottom:15px;
-}
-
-#mossHouseGoogleMapImage{
-    width:100%;
-}
-
-
