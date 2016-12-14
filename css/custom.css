@@ -109,6 +109,11 @@ img {
     border-radius: 0px;
 }
 
+ol{ /*User agent override*/
+
+    padding-left:15px;
+}
+
 .col-xs-1 .col-xs-2 .col-xs-3 .col-xs-4 .col-xs-5 .col-xs-6 .col-xs-7 .col-xs-8 .col-xs-9 .col-xs-10 .col-xs-11 {
     padding-left: 0px;
     padding-right: 0px;
@@ -203,7 +208,11 @@ img {
 
 /* -------------------   /NAVBAR  ------------------servicesSubHeading- */
 
+#allContentUnderNavBar {
+    background-color: #f6f1ed;
+        
 
+}
 /* -------------------   WELCOME AND IMAGE BOX------------------- */
 
 .welcome {
@@ -366,6 +375,7 @@ CHECK IF I SHOULD I USE BELOW?
     }
 
     .contactFields .media-object {
+        /*Mid greybackground-color: #e9e6e4;*/
         background-color: #E9EAEA;
         line-height: 50px;
         text-align: center;
@@ -459,10 +469,7 @@ CHECK IF I SHOULD I USE BELOW?
 /* -------------------   /Center Nav Links  ------------------- */
 
 
-#allContentUnderNavBar {
-    background-color: #F2F2F3;
 
-}
 /* -------------------   SERVICES ------------------- */
 
 
@@ -842,3 +849,14 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
         display: none;
     }
 }
+
+/*Partials - Location.html*/
+#directionsTextSection{
+    margin-bottom:15px;
+}
+
+#mossHouseGoogleMapImage{
+    width:100%;
+}
+
+
