@@ -100,6 +100,10 @@ img {
     padding: 0px; /*Bootstrap override*/
 }
 
+p{
+    margin:10px 0px 10px 0px; /*Bootstrap override of margin: 0 0 10px; */
+}
+
 .noMargin{
     margin:0px;
 }

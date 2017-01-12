@@ -44,9 +44,9 @@
 
 <body>
 
-    <div id="entirePage" >
+    <div id="entirePage">
 
-        <div id="customNav class="container-fluid">
+        <div id="customNav class=" container-fluid">
             <!--NavBar-->
             <div class="row">
 
@@ -79,8 +79,7 @@
                     </div>
                 </div><!--/col homePageImage-->
                 <!--contactFields-->
-
-
+                <!--<div id="scrollArea" ng-controller="ScrollController">-->
                 <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
                     <div class="customMediaBoxes contactFields">
                         <!--<div id="areasCovered">Serving Dublin and surrounding areas.</div>-->
@@ -99,7 +98,8 @@
                             <div class="media-body">
                                 Jim: <a href="tel:+35387643816">00353(0)87 755 2944</a>
                             </div>
-                        </div><!--Fill this in with Joesy's number
+                        </div>
+                        <!--Fill this in with Joesy's number
                         <div class="media">
                             <div class="media-left">
                                 <a href="tel:+353863881118"><span class="media-object icon_sosa smartphone"></span></a>
@@ -120,111 +120,114 @@
                                 </a>
                             </div>
                         </div>
-                    </div><!--/contactFields--> 
+                    </div><!--/contactFields-->
 
                     <div id="welcomeSection">
                         <span id="welcomeHeading">Welcome</span> and thanks for visiting The&nbsp;Moss&nbsp;House. Here you will find warm, friendly owners, eager to make sure you enjoy your stay right in the heart of the picturesque town of Bunclody.
                     </div>
-                    
-                  
+
+
 
                 </div><!-- /col -->
-              
+
 
             </div> <!-- /row: Main Image & Contact Fields-->
             <!--   Row 2: Column 1  Services -->
-
             <!--/navLinksSection-->
-            <div class="row">
+
+
+
+            <div class="row" id="info-section-anchor">
 
                 <div id="centerNavSection">
 
                     <div class="centerText">
                         <!--Note the the col itself will still have padding-->
 
-                            <div class="centerNavBar row">
+                        <div class="centerNavBar row">
 
-                                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 noPadding noMargin">
-                                    <a href="#rooms#info-section-anchor">
-                                        <div class="media">
-                                            <div class="media-left">
-                                                <span class="media-object icon_sosa landline"></span>
-                                            </div>
-                                            <div class="media-body">
-                                                Rooms &amp; Facilities
-                                            </div>
+                            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 noPadding noMargin">
+                                <a href="#rooms">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <span class="media-object icon_sosa landline"></span>
                                         </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 noPadding">
-                                    <a href="#bar#info-section-anchor">
-                                        <div class="media">
-                                            <div class="media-left">
-                                                <span class="media-object icon_sosa landline noPadding"></span>
-                                            </div>
-                                            <div class="media-body">
-                                                Bar &amp; Music
-                                            </div>
+                                        <div class="media-body">
+                                            Rooms &amp; Facilities
                                         </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 noPadding">
-                                    <a href="#attractions#info-section-anchor">
-                                        <div class="media">
-                                            <div class="media-left">
-                                                <span class="media-object icon_sosa landline"></span>
-                                            </div>
-                                            <div class="media-body">
-                                                Attractions
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div id="scrollArea" ng-controller="ScrollController">
-                                    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 noPadding">
-                                        <a ng-click="gotoBottom()">
-                                        <div class="media">
-                                            <div class="media-left">
-                                                <span class="media-object icon_sosa landline"></span>
-                                            </div>
-                                            <div class="media-body">
-                                                Location
-                                            </div>
-                                        </div>
-                                        </a>
                                     </div>
+                                </a>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 noPadding">
+                                <a href="#bar">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <span class="media-object icon_sosa landline noPadding"></span>
+                                        </div>
+                                        <div class="media-body">
+                                            Bar &amp; Music
+                                        </div>
                                     </div>
+                                </a>
+                            </div>
 
-                                </div>
+                            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 noPadding">
+                                <a href="#attractions">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <span class="media-object icon_sosa landline"></span>
+                                        </div>
+                                        <div class="media-body">
+                                            Attractions
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
 
-                            <!-- <div ng-include="'infoLinks/partials/bar.html'"></div> This works but don't need it, for now anyway, because of the ng-view, used below -->
-                        </div>
-                    <div class=row>
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <div ng-view id="bottom"></div>
+                            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 noPadding">
+                                <a href="#location">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <span class="media-object icon_sosa landline"></span>
+                                        </div>
+                                        <div class="media-body">
+                                            Location
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
                         </div>
 
-                    </div><!--/centerText>-->
+                    </div>
 
-                    <div class="row">
-                        <!--/Row 2 -->
-                        <!--Footer -->
-                        <footer>
-                            Design by: <a href=http://www.bweb.ie>BWeb.ie</a>
-                        </footer>
-                    </div><!--/Footer -->
+                    <!-- <div ng-include="'infoLinks/partials/bar.html'"></div> This works but don't need it, for now anyway, because of the ng-view, used below -->
+                </div><!--/centerNavSection"-->
 
-
-
-
+                <div class=row>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <!--<div ng-view autoscroll="true"></div>-->
+                        <div ng-view></div>
+                    </div>
                 </div>
-            </div>
+
+            </div><!--/centerText>-->
+            <!-- </div>/ScrollController-->
+
+
+            <div class="row">
+                <!--/Row 2 -->
+                <!--Footer -->
+                <footer>
+                    Design by: <a href=http://www.bweb.ie>BWeb.ie</a>
+                </footer>
+            </div><!--/Footer -->
+
+
+
+
 
         </div><!--/allContentUnderNavBar-->
-
     </div><!--/entirePage /.container-fluid-->
 
 
@@ -232,8 +235,8 @@
     <!--<script src="js/twitterFeed.js"></script>-->
 
 
-    
-  
+
+
 
 
 </body>
