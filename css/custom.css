@@ -389,7 +389,7 @@ CHECK IF I SHOULD I USE BELOW?
 }
 
     .navLinkBoxes .media {
-        background-color: #4d88ff;
+        background-color: darkred;
         display: inline-block;
         margin: 0px;
         color: #E9EAEA;
@@ -470,6 +470,7 @@ CHECK IF I SHOULD I USE BELOW?
     padding: 15px;
     font-family: Calibri, Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
     text-align: center;
+    margin-top:5%;
 
        
 
