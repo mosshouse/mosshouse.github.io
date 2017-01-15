@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description" content="Hotel standard ensuite bedrooms with self-catering kitchen, guest house, located in the town centre, close to Bunclody Golf and Fishing Club. Great value at affordable prices.">
     <title>Guest House, Bunclody Town Centre, Wexford. Beside Golf & Fishing Club</title>
 
@@ -34,7 +34,7 @@
 
     <!--Picture Fill  - recommnended to be in head -->
     <script>
-        // Picture element HTML5 shiv
+        // Picture element HTML5 shiv. see more at http://scottjehl.github.io/picturefill/
         document.createElement("picture");
     </script>
     <script src="scripts/vendors/picturefill.min.js"></script>
@@ -44,13 +44,13 @@
 
 <body>
 
-    <div id="entirePage" >
+    <div id="entirePage">
 
-        <div id="customNav class="container-fluid">
+        <div id="customNav" class="container-fluid">
             <!--NavBar-->
             <div class="row">
 
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="logo">
+                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-9" id="logo">
 
                     <div id="companyDiv">
                         <a href="#">
@@ -65,31 +65,16 @@
 
                 </div><!--/col-->
 
-            </div> <!-- /row -->
-        </div> <!-- /customNav -->
-
-        <div id="allContentUnderNavBar" class="container-fluid">
-
-            <!-- Main Image & Contact Fields -->
-            <div class="row">
-
-                <div class="col-xs-12 col-sm-7 col-md-8 col-lg-9" id="homePageImage">
-                    <div>
-                        <img src="images/buildingFront.jpg" />
-                    </div>
-                </div><!--/col homePageImage-->
-                <!--contactFields-->
-
-
-                <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-3">
+                    <!--contactFields-->
                     <div class="customMediaBoxes contactFields">
                         <!--<div id="areasCovered">Serving Dublin and surrounding areas.</div>-->
                         <div class="media">
                             <div class="media-left">
-                                <a href="tel:+353876438168"><span class="media-object icon_sosa landline"></span></a>
+                                <a href="tel:+353876438168"><span class="media-object icon_sosa smartphone"></span></a>
                             </div>
                             <div class="media-body">
-                                Pauline: <a href="tel:+35387643816">00353(0)87 643 8168</a>
+                                Pauline: <a href="tel:+35387643816">+353(0)87 643 8168</a>
                             </div>
                         </div>
                         <div class="media">
@@ -99,7 +84,8 @@
                             <div class="media-body">
                                 Jim: <a href="tel:+35387643816">00353(0)87 755 2944</a>
                             </div>
-                        </div><!--Fill this in with Joesy's number
+                        </div>
+                        <!--Fill this in with Joesy's number
                         <div class="media">
                             <div class="media-left">
                                 <a href="tel:+353863881118"><span class="media-object icon_sosa smartphone"></span></a>
@@ -120,103 +106,94 @@
                                 </a>
                             </div>
                         </div>
-                    </div><!--/contactFields--> 
-
-                    <div id="welcomeSection">
-                        <span id="welcomeHeading">Welcome</span> and thanks for visiting The&nbsp;Moss&nbsp;House. Here you will find warm, friendly owners, eager to make sure you enjoy your stay right in the heart of the picturesque town of Bunclody.
                     </div>
-                    
-                </div><!-- /col -->
-              
 
-            </div> <!-- /row: Main Image & Contact Fields-->
-            <!--   Row 2: Column 1  Services -->
+                </div><!--/contactFields-->
+
+            </div> <!-- /row -->
+        </div> <!-- /customNav -->
+
+        <div id="allContentUnderNavBar" class="container-fluid">
 
             <!--/navLinksSection-->
-            <div class="row">
+            <section id="navLinksRow" class="row">
 
-                <div id="centerNavSection">
+                <div class="centerText">
+                    <!--Note the the col itself will still have padding-->
 
-                    <div class="centerText">
-                        <!--Note the the col itself will still have padding-->
+                    <div class="navLinkBoxes">
 
-                        <div class="centerNavBar row">
-
-                            <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2 noPadding noMargin">
-                                <a href="#rooms">
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <span class="media-object icon_sosa landline"></span>
-                                        </div>
-                                        <div class="media-body">
-                                            Rooms &amp; Facilities
-                                        </div>
-                                    </div>
-                                </a>
-                           
-                                <a href="#bar">
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <span class="media-object icon_sosa landline noPadding"></span>
-                                        </div>
-                                        <div class="media-body">
-                                            Bar &amp; Music
-                                        </div>
-                                    </div>
-                                </a>
-                        
-                                <a href="#attractions">
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <span class="media-object icon_sosa landline"></span>
-                                        </div>
-                                        <div class="media-body">
-                                            Attractions
-                                        </div>
-                                    </div>
-                                </a>
-                         
-                                <a href="#location">
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <span class="media-object icon_sosa landline"></span>
-                                        </div>
-                                        <div class="media-body">
-                                            Location
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-
-
-                        <!-- <div ng-include="'infoLinks/partials/bar.html'"></div> This works but don't need it, for now anyway, because of the ng-view, used below -->
-             
-                            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10">
-                                <div ng-view></div>
-                            </div>
+                        <div class="col-xs-0 col-sm-0 col-md-2 col-lg-2 noPadding noMargin">
                         </div>
 
-                    </div><!--/centerText>-->
+                        <a href="#rooms">
+                            <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2 noPadding noMargin">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <span class="media-object icon_sosa landline"></span>
+                                    </div>
+                                    <div class="media-body">
+                                        Rooms &amp; Facilities
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
 
-                    <div class="row">
-                        <!--/Row 2 -->
-                        <!--Footer -->
-                        <footer>
-                            Design by: <a href=http://www.bweb.ie>BWeb.ie</a>
-                        </footer>
-                    </div><!--/Footer -->
+                        <a href="#bar">
+                            <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2 noPadding noMargin">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <span class="media-object icon_sosa landline noPadding"></span>
+                                    </div>
+                                    <div class="media-body">
+                                        Bar &amp; Music
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
 
+                        <a href="#attractions">
+                            <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2 noPadding noMargin">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <span class="media-object icon_sosa landline"></span>
+                                    </div>
+                                    <div class="media-body">
+                                        Attractions
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
 
+                        <a href="#location">
+                            <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2 noPadding noMargin">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <span class="media-object icon_sosa landline"></span>
+                                    </div>
+                                    <div class="media-body">
+                                        Location
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div> <!--/centerText>-->
+            </section><!--/navLinksSection row-->
+            <!-- <div ng-include="'infoLinks/partials/bar.html'"></div> This works but don't need it, for now anyway, because of the ng-view, used below -->
+            <div ng-view>
+            </div><!-- /row: Partials & Contact Fields-->
 
-
-                </div>
-            </div>
+            <div class="row">
+                <!--/Row 2 -->
+                <!--Footer -->
+                <footer>
+                    Design by: <a href=http://www.bweb.ie>BWeb.ie</a>
+                </footer>
+            </div><!--/Footer -->
 
         </div><!--/allContentUnderNavBar-->
-
     </div><!--/entirePage /.container-fluid-->
-
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <!--<script src="js/twitterFeed.js"></script>-->

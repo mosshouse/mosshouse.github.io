@@ -121,6 +121,9 @@ p{
     padding:0px; /*Bootstrap override of the conatainer-fluid class. Container fluid was added because Bootstrap web pages states; */
 }
 
+.centerText{
+     text-align: center;
+}
 /* -------------------   TOP NAVBAR  ------------------- */
 
 #logo {
@@ -231,44 +234,12 @@ p{
 }
 
 
-.carousel-caption {
-    bottom: 0px;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
-    background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
-    margin-left: 60%;
-    width: 40%;
-    left: 0%;
-    right: 0%;
-    padding: 10px;
-    text-align: left;
-    font-family: 'Century Gothic', 'Muli','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
 
 .imageWithCenteredText {
     /*Vertical Bit*/
     position: relative;
 }
 
-.carousel-caption-centerText .textOnImage {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
-    background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
-    font-family: 'Century Gothic', 'Muli','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2em;
-    color: white;
-    padding: 8px;
-    width: 40%;
-    text-align: center;
-    /*Vertical Bit*/
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    /*Horizontal Bit*/
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-52%, -50%);
-}
 
 
 .darkImageOverlayT {
@@ -410,18 +381,15 @@ CHECK IF I SHOULD I USE BELOW?
 
 /* -------------------   Center Nav Links  ------------------- */
 
-#centerNavSection {
-    margin-top:15px;
-}
 
-.centerNavBar {
- 
+
+#navLinksRow {
     padding-left:13px;
     padding-right:13px;
 }
 
-    .centerNavBar .media {
-        background-color: darkred;
+    .navLinkBoxes .media {
+        background-color: #4d88ff;
         display: inline-block;
         margin: 0px;
         color: #E9EAEA;
@@ -431,33 +399,32 @@ CHECK IF I SHOULD I USE BELOW?
     /*any navBar box that is on the left hand side (depending on the viewport width) will have a border of 2 + the padding-left from the 'centerNavBar' (above) of 13 to = 15pt padding*/
 
 
-.centerNavBar .media:link,
-.centerNavBar .media:visited,
+.navLinkBoxes .media:link,
+.centNavBar .media:visited,
 .centerNavBar .media:hover,
 .centerNavBar .media:active {
     background-color: #CC0000;
 }
 
-.centerNavBar .media-object {
+.navLinkBoxes .media-object {
    line-height: 50px;
     text-align: center;
-    padding-left: 15px;
-    padding-right: 5px;
+
 }
-.centerNavBar .media-body{
+.navLinkBoxes .media-body{
  line-height: 50px;
         height: 50px;
         font-family: RobotoCondensed-Regular, 'Century Gothic', 'Core Sans N 25', 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
     font-size: 1.5em;
         }
 
-.centerNavBar .icon_sosa {
+.navLinkBoxes .icon_sosa {
     /*color: #337ab7; Default bootstrap link colour*/
-    font-size: 2.5em;
+   /* font-size: 2.5em; */
     display:none; /*Remove this once new vectors are added*/
 }
 
-    .centerNavBar .icon_sosa:hover {
+    .navLinkBoxes .icon_sosa:hover {
     }
 
 /* -------------------   /Center Nav Links  ------------------- */
@@ -500,10 +467,15 @@ CHECK IF I SHOULD I USE BELOW?
 #welcomeSection {
   
     font-size: 1.2em;
-    padding-top: 25px;
-    padding-bottom: 10px;
+    padding: 15px;
     font-family: Calibri, Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
     text-align: center;
+
+       
+
+}
+#welcomePageImage{
+
 }
 
 .services .media-heading {
@@ -846,7 +818,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
         display: none;
     }
 }
-<<<<<<< HEAD
+
 
 .noIdent{
     margin:0px;
@@ -860,5 +832,23 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
 #info-section-anchor{
     margin-top:5%;
 }
-=======
->>>>>>> 1da8fa0476f794801b0035f2df9d08f267be5ac2
+#test{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.centerMe{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.centerMe2{
+margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;}
