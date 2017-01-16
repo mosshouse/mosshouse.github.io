@@ -14,7 +14,11 @@ body {
     max-width: 1480px;
 }
 
-a, a:hover, a:active, a:visited {
+a:link, a:hover, a:active, a:visited {
+    text-decoration: none;
+}
+
+a:visited {
     text-decoration: none;
 }
 
@@ -99,6 +103,10 @@ img {
 .noPadding {
     padding: 0px; /*Bootstrap override*/
 }
+.imagePadding{
+    padding: 1px;
+}
+
 
 p{
     margin:10px 0px 10px 0px; /*Bootstrap override of margin: 0 0 10px; */
@@ -124,6 +132,11 @@ p{
 .centerText{
      text-align: center;
 }
+
+.rightText{
+     text-align: right;
+}
+
 /* -------------------   TOP NAVBAR  ------------------- */
 
 #logo {
@@ -131,7 +144,7 @@ p{
 }
 
 #customNav {
-
+    margin-bottom:8px;
 }
 
 
@@ -153,13 +166,10 @@ p{
     color: darkred;
 }
 
+
 #dotcom {
     font-size: 1.7em;
     color: white;
-}
-
-
-#company a {
 }
 
 #pageHeadingDiv {
@@ -327,26 +337,38 @@ CHECK IF I SHOULD I USE BELOW?
 
 }
 /* -------------------   CONTACT FIELDS ------------------- */
-.contactFields {
-        padding-top: 10px;
+#topRow{
+margin-left: -4px;
+margin-right: -4px;
 }
 
-    .contactFields .media {
-        margin-top: 5px;
-       border: 1px solid #D9E0E8; 
+.topRowContactField{
+     padding-left: 4px;
+        padding-right: 4px;
+}
+
+.contactField{
+        padding-top: 8px;
+       
+}
+
+    .contactField .media {
+        /* margin-top: 5px;*/
+      border: 1px solid #D9E0E8; 
         background-color: white;
     }
 
-    .contactFields .media-object {
-        background-color: #E9EAEA;
+    .contactField .media-object {
+       
         line-height: 50px;
         text-align: center;
+        /* background-color: #E9EAEA;
         padding-left: 5px;
-        padding-right: 5px;
+        padding-right: 5px;*/
     }
 
 
-    .contactFields .icon_sosa {
+    .contactField .icon_sosa {
         /*color: #337ab7; Default bootstrap link colour*/
          /* color: #3b5998; blue */
          color: darkred;
@@ -354,18 +376,23 @@ CHECK IF I SHOULD I USE BELOW?
       
     }
 
-        .contactFields .icon_sosa a:hover {
+        .contactField .icon_sosa a:hover {
             color: blue;
         }
 
-    .contactFields .media-body {
+    .contactField .media-body {
         line-height: 50px;
         height: 50px;
     }
 
 .clock {
 }
-
+/*
+@media screen and (min0width: 768) and (max-width: 991px){ 
+    #contactLinkAddressBox{
+        display:none;
+    }
+}*/
 .openingHours {
     padding-top: 4px;
     padding-bottom: 4px;
@@ -383,9 +410,9 @@ CHECK IF I SHOULD I USE BELOW?
 
 
 
-#navLinksRow {
-    padding-left:13px;
-    padding-right:13px;
+.customRow {
+    margin-left:-1px;
+    margin-right:-1px;
 }
 
     .navLinkBoxes .media {
@@ -393,16 +420,16 @@ CHECK IF I SHOULD I USE BELOW?
         display: inline-block;
         margin: 0px;
         color: #E9EAEA;
-        border-left: 2px solid #E9EAEA;
-        border-right: 2px solid #E9EAEA;
+        border-left: 1px solid #E9EAEA;
+        border-right: 1px solid #E9EAEA;
     }
     /*any navBar box that is on the left hand side (depending on the viewport width) will have a border of 2 + the padding-left from the 'centerNavBar' (above) of 13 to = 15pt padding*/
 
 
 .navLinkBoxes .media:link,
-.centNavBar .media:visited,
-.centerNavBar .media:hover,
-.centerNavBar .media:active {
+.navLinkBoxes .media:visited,
+.navLinkBoxes .media:hover,
+.navLinkBoxes .media:active {
     background-color: #CC0000;
 }
 
@@ -833,23 +860,22 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
 #info-section-anchor{
     margin-top:5%;
 }
-#test{
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-}
-.centerMe{
 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-   width: 100px;
-    height: 100px;
-    background-color: blue;
+#mountLeinsterMap{
+    margin-top:15px;
 }
 
-.centerMe2{
-margin: auto;
-    width: 60%;
-    border: 3px solid #73AD21;
-    padding: 10px;}
+#mossHouseMap{
+     margin-top:15px;
+}
+
+@media only screen and (max-width:480px) {
+
+    .hideOnSmallScreens {
+        display: none;
+    }
+}
+
+#partialsDiv{
+    margin-top:10px;
+}

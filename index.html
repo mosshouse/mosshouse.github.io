@@ -48,9 +48,9 @@
 
         <div id="customNav" class="container-fluid">
             <!--NavBar-->
-            <div class="row">
+            <div class="row" id="topRow">
 
-                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-9" id="logo">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7" id="logo">
 
                     <div id="companyDiv">
                         <a href="#">
@@ -64,12 +64,13 @@
                     </div>
 
                 </div><!--/col-->
+                <!--contactFields
+        <div class="customMediaBoxes contactFields">-->
+                <!--<div id="areasCovered">Serving Dublin and surrounding areas.</div>-->
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 noPadding ">
 
-                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-3">
-                    <!--contactFields-->
-                    <div class="customMediaBoxes contactFields">
-                        <!--<div id="areasCovered">Serving Dublin and surrounding areas.</div>-->
-                        <div class="media">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 contactField topRowContactField">
+                        <div class=" media">
                             <div class="media-left">
                                 <a href="tel:+353876438168"><span class="media-object icon_sosa smartphone"></span></a>
                             </div>
@@ -77,120 +78,127 @@
                                 Pauline: <a href="tel:+35387643816">+353(0)87 643 8168</a>
                             </div>
                         </div>
+                    </div><!--/inner Col 1 (of 2)-->
+
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 contactField topRowContactField">
                         <div class="media">
                             <div class="media-left">
                                 <a href="tel:+353877552944"><span class="media-object icon_sosa smartphone"></span></a>
                             </div>
                             <div class="media-body">
-                                Jim: <a href="tel:+35387643816">00353(0)87 755 2944</a>
+                                Jim: <a href="tel:+353877552944">00353(0)87 755 2944</a>
                             </div>
                         </div>
-                        <!--Fill this in with Joesy's number
+                    </div><!--/inner Col 2 (of 2)-->
+
+                </div><!--/outer Col-->
+
+            </div><!--/row-->
+            <!--Fill this in with Joesy's number
+            <div class="media">
+                <div class="media-left">
+                    <a href="tel:+353863881118"><span class="media-object icon_sosa smartphone"></span></a>
+                </div>
+                <div class="media-body">
+                    Pauline: <a href="tel:+35387643816">00353(0)87 643 8168</a>
+                </div>
+            </div>-->
+            <div class="row" id="contactLinkaddressBox">
+                <div class="col-xs-0 col-sm-0 col-md-8 col-lg-9 noPadding">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 contactField noPadding">
+                    <div class="media">
+                        <div class="media-left">
+                            <a target="_blank" href="https://www.google.ie/maps/place/Foxfield+Park,+Dublin+5/@53.3822978,-6.1557373,17z/data=!3m1!4b1!4m2!3m1!1s0x48670567414f0299:0xe32641f5007dbe2f">
+                                <span class="media-object icon_sosa map"></span>
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <a target="_blank" href="https://www.google.ie/maps/place/Foxfield+Park,+Dublin+5/@53.3822978,-6.1557373,17z/data=!3m1!4b1!4m2!3m1!1s0x48670567414f0299:0xe32641f5007dbe2f">
+                                Carrigduff, Bunclody, Co. Wexford
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!--/contactLinkaddressBox-->
+
+        </div><!-- /customNav -->
+
+
+
+
+    <div id="allContentUnderNavBar" class="container-fluid">
+
+        <!--/navLinksSection-->
+        <section id="navLinksRow" class="customRow">
+
+            <div class="navLinkBoxes centerText">
+
+                <a href="#rooms">
+                    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 noPadding noMargin">
                         <div class="media">
                             <div class="media-left">
-                                <a href="tel:+353863881118"><span class="media-object icon_sosa smartphone"></span></a>
+                                <span class="media-object icon_sosa landline"></span>
                             </div>
                             <div class="media-body">
-                                Pauline: <a href="tel:+35387643816">00353(0)87 643 8168</a>
-                            </div>
-                        </div>-->
-                        <div class="media">
-                            <div class="media-left">
-                                <a target="_blank" href="https://www.google.ie/maps/place/Foxfield+Park,+Dublin+5/@53.3822978,-6.1557373,17z/data=!3m1!4b1!4m2!3m1!1s0x48670567414f0299:0xe32641f5007dbe2f">
-                                    <span class="media-object icon_sosa map"></span>
-                                </a>
-                            </div>
-                            <div class="media-body">
-                                <a target="_blank" href="https://www.google.ie/maps/place/Foxfield+Park,+Dublin+5/@53.3822978,-6.1557373,17z/data=!3m1!4b1!4m2!3m1!1s0x48670567414f0299:0xe32641f5007dbe2f">
-                                    Carrigduff, Bunclody, Co. Wexford
-                                </a>
+                                Rooms<span class="hideOnSmallScreens"> &amp; Facilities</span>
                             </div>
                         </div>
                     </div>
+                </a>
 
-                </div><!--/contactFields-->
-
-            </div> <!-- /row -->
-        </div> <!-- /customNav -->
-
-        <div id="allContentUnderNavBar" class="container-fluid">
-
-            <!--/navLinksSection-->
-            <section id="navLinksRow" class="row">
-
-                <div class="centerText">
-                    <!--Note the the col itself will still have padding-->
-
-                    <div class="navLinkBoxes">
-
-
-                        <a href="#rooms">
-                            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 noPadding noMargin">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <span class="media-object icon_sosa landline"></span>
-                                    </div>
-                                    <div class="media-body">
-                                        Rooms &amp; Facilities
-                                    </div>
-                                </div>
+                <a href="#bar">
+                    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 noPadding noMargin">
+                        <div class="media">
+                            <div class="media-left">
+                                <span class="media-object icon_sosa landline noPadding"></span>
                             </div>
-                        </a>
-
-                        <a href="#bar">
-                            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 noPadding noMargin">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <span class="media-object icon_sosa landline noPadding"></span>
-                                    </div>
-                                    <div class="media-body">
-                                        Bar &amp; Music
-                                    </div>
-                                </div>
+                            <div class="media-body">
+                                Bar &amp; Music
                             </div>
-                        </a>
-
-                        <a href="#attractions">
-                            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 noPadding noMargin">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <span class="media-object icon_sosa landline"></span>
-                                    </div>
-                                    <div class="media-body">
-                                        Attractions
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="#location">
-                            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 noPadding noMargin">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <span class="media-object icon_sosa landline"></span>
-                                    </div>
-                                    <div class="media-body">
-                                        Location
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
+                        </div>
                     </div>
-                </div> <!--/centerText>-->
-            </section><!--/navLinksSection row-->
-            <!-- <div ng-include="'infoLinks/partials/bar.html'"></div> This works but don't need it, for now anyway, because of the ng-view, used below -->
-            <div ng-view>
-            </div><!-- /row: Partials & Contact Fields-->
+                </a>
 
-            <div class="row">
-                <!--/Row 2 -->
-                <!--Footer -->
-                <footer>
-                    Design by: <a href=http://www.bweb.ie>BWeb.ie</a>
-                </footer>
-            </div><!--/Footer -->
+                <a href="#attractions">
+                    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 noPadding noMargin">
+                        <div class="media">
+                            <div class="media-left">
+                                <span class="media-object icon_sosa landline"></span>
+                            </div>
+                            <div class="media-body">
+                                Attractions
+                            </div>
+                        </div>
+                    </div>
+                </a>
 
-        </div><!--/allContentUnderNavBar-->
+                <a href="#location">
+                    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 noPadding noMargin">
+                        <div class="media">
+                            <div class="media-left">
+                                <span class="media-object icon_sosa landline"></span>
+                            </div>
+                            <div class="media-body">
+                                Location
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </div> <!--/centerText>-->
+        </section><!--/navLinksSection row-->
+        <!-- <div ng-include="'infoLinks/partials/bar.html'"></div> This works but don't need it, for now anyway, because of the ng-view, used below -->
+
+        <div ng-view id="partialsDiv">
+        </div><!-- /row: Partials & Contact Fields-->
+
+        <footer class="row">
+            Design by: <a href=http://www.bweb.ie>BWeb.ie</a>
+        </footer><!--/row Footer -->
+
+    </div><!--/allContentUnderNavBar-->
     </div><!--/entirePage /.container-fluid-->
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>

@@ -4,6 +4,7 @@ angular.module('router', ['ngRoute'])
     $routeProvider
          .when('/index', { templateUrl: 'infoLinks/partials/welcome.html' })
         .when('/rooms', { templateUrl: 'infoLinks/partials/rooms.html' })
+        .when('/rooms-carousel', { templateUrl: 'infoLinks/partials/rooms.html' })
         .when('/bar', { templateUrl: 'infoLinks/partials/bar.html' })
         .when('/location', { templateUrl: 'infoLinks/partials/location.html' })
         .when('/attractions', { templateUrl: 'infoLinks/partials/attractions.html' })
