@@ -876,10 +876,15 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
     }
 }
 
-#partialsDiv{
-margin: 10px;
+#partialsDiv{ /*includes index.html*/
+margin-top: 10px;
+margin-bottom:10px;
 }
 
+.navPartialSection{ /*doesn't include index.html*/
+margin-left: 15px;
+margin-bottom: 15px;
+}
 .partialIntro{
     margin-top:15px;
      margin-bottom:10px;
