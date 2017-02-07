@@ -877,5 +877,10 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
 }
 
 #partialsDiv{
-    margin-top:10px;
+margin: 10px;
+}
+
+.partialIntro{
+    margin-top:15px;
+     margin-bottom:10px;
 }
