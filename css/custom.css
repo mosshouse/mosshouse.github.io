@@ -917,3 +917,7 @@ opacity:1;
 .carousel-control.right, .carousel-control.left {
   background-image:none;
 }
+
+#barImages{
+    background-color: #4d0000;
+}
