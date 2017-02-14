@@ -57,7 +57,7 @@ h2, h3 {
     padding-bottom: 0px;
       margin-bottom: 6px;
        color: darkred;
-
+    
 }
 
 
@@ -86,7 +86,9 @@ img {
     width: auto;
     height: auto;
 }
-
+ figure{
+    padding-top:5px;
+ }
 .alignRight {
     float: right;
 }
@@ -103,10 +105,17 @@ img {
 .noPadding {
     padding: 0px; /*Bootstrap override*/
 }
+
+.noMarginTop{
+    margin-top:0px;
+}
 .imagePadding{
     padding: 1px;
 }
 
+.marginTopRow{
+    margin-top:20px;
+}
 
 p{
     margin:10px 0px 10px 0px; /*Bootstrap override of margin: 0 0 10px; */
