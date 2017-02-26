@@ -3,7 +3,8 @@ angular.module('router', ['ngRoute'])
 .config(function ($routeProvider) { //Angular dependancy injection 
     $routeProvider
          .when('/index', { templateUrl: 'infoLinks/partials/welcome.html' })
-        .when('/rooms', { templateUrl: 'infoLinks/partials/rooms.html' })
+        .when('/accomodation', { templateUrl: 'infoLinks/partials/accomodation.html' })
+        .when('/rooms', { templateUrl: 'infoLinks/partials/accomodation.html' })
         .when('/rooms-carousel', { templateUrl: 'infoLinks/partials/rooms.html' })
         .when('/bar', { templateUrl: 'infoLinks/partials/bar.html' })
         .when('/location', { templateUrl: 'infoLinks/partials/location.html' })
