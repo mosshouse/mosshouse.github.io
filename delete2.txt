@@ -1,18 +1,7 @@
-﻿<!--Another header is added to add new a new title tag and description for SEO-->
-<head>
-    <meta name="Description" content="Ryan's pub, the Moss House, offering quality accomodation in Bunclody at affordable prices.">
-    <title>Accommodation in Bunclody Town Centre, Wexford. Affordable Deals on Hotel Standard Accommodation. Self-catering facilities. Beside Golf & Fishing Club. </title>
-    <meta name="Description" content="Location of the Moss House.">
-    <meta name="keywords" content=" Accommodation Bunclody, Wexford, golf, fishing, hotel, inn, guest house, lodge, self-catering, self catering, lodging, bed and breakfast ">
-    <!--GeoTags-->
-    <meta name="geo.region" content="IE-WX" />
-    <meta name="geo.placename" content="Bunclody" />
-    <meta name="geo.position" content="52.7;-6.7" />
-    <meta name="ICBM" content="52.7, -6.7" />    
+LOCATION BODY:  
 
-</head>
-<body>
-    <div class="navPartialSection">
+
+  <div class="navPartialSection">
         <div class="row">
             <div class="col-xs-12 col-sm-10 col-md-9 col-lg-7 noPadding">
                 <h1>Moss House Location</h1>
@@ -84,7 +73,4 @@
                 </p>
             </div>
         </div>
-    </div>
-
-    </body>
-
+        </div>
