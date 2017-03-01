@@ -104,6 +104,7 @@ img {
 
 .noPadding {
     padding: 0px; /*Bootstrap override*/
+
 }
 
 .noMarginTop{
@@ -467,7 +468,8 @@ margin-right: -4px;
 
 
 #allContentUnderNavBar {
-    background-color: #F2F2F3;
+ background-color:#F2F2F3  ;
+    margin-top:10px;
 
 }
 /* -------------------   SERVICES ------------------- */
@@ -896,10 +898,7 @@ margin-bottom:10px;
 margin-left: 15px;
 margin-bottom: 15px;
 }
-.partialIntro{
-    margin-top:15px;
-     margin-bottom:10px;
-}
+
 
 .carousel.fade {
     opacity: 1;
@@ -935,4 +934,13 @@ opacity:1;
 
 #bunclodyDotNet{
      font-size: 1.4em;
+}
+
+#footerMessage{
+    margin-bottom:10px;
+}
+
+#TA_cdsratingsonlynarrow968 {
+    margin: auto;
+    width: 50%;
 }
