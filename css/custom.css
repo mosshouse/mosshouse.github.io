@@ -149,8 +149,10 @@ p{
 
 /* -------------------   TOP NAVBAR  ------------------- */
 
-#logo {
-    background-color: white;
+#companyLogo {
+    width:70%;
+    padding-top:10px;
+    margin: auto;
 }
 
 #customNav {
@@ -159,16 +161,12 @@ p{
 
 
 #companyDiv {
-    height: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: white;
     display: inline-block;
     font-family: 'century-gothic', 'Muli','Franklin Gothic Medium', 'Roboto Condensed', Gadugi, 'Gill Sans MT', Geneva, Tahoma, sans-serif;
 }
 
 #companyText {
-    display: inline;
+
 }
 
 #companyName {
@@ -352,14 +350,14 @@ margin-left: -4px;
 margin-right: -4px;
 }
 
-.topRowContactField{
-     padding-left: 4px;
-        padding-right: 4px;
+.topRowContactField {
 }
 
 .contactField{
         padding-top: 8px;
-       
+            padding-left: 4px;
+        padding-right: 4px;
+
 }
 
     .contactField .media {
@@ -942,5 +940,5 @@ opacity:1;
 
 #TA_cdsratingsonlynarrow968 {
     margin: auto;
-    width: 50%;
+    width: 30%;
 }
