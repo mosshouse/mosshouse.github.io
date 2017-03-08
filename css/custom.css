@@ -148,12 +148,46 @@ p{
 }
 
 /* -------------------   TOP NAVBAR  ------------------- */
-
-#companyLogo {
-    width:70%;
-    padding-top:10px;
-    margin: auto;
+#logo{
+        padding-left:5px;
+     padding-right:5px;
+     padding-bottom:0px;
+          padding-top:0px;
 }
+#companyLogo {
+   /* width:70%; this isn't good as it was too small on smaller screens.  */
+
+
+        margin: auto;
+        width:60%;
+}
+@media only screen and (min-width: 768px)and (max-width: 992px){
+    #companyLogo {
+    width:100%; /*make width 100% because the logo is squeezed into a sm-4 size col*/
+    }
+} 
+
+@media only screen and (min-width: 992px) and (min-resolution: 1dppx) {
+    #companyLogo {
+        margin-left: 0px; /*to override the margin-auto default CSS rule which centers the logo. We want the logo to the left on desktops/ laptop screens*/
+    }
+}
+
+@media only screen and (max-width:480px) {
+
+    .contactText {
+        display: none;
+    }
+}
+
+/*Mobile screens, move the logo to the center of the col */
+
+{
+    #companyLogo {
+    }
+
+}
+
 
 #customNav {
     margin-bottom:8px;
