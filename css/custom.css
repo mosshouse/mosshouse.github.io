@@ -157,13 +157,8 @@ p{
 #companyLogo {
    /* width:75%; this isn't good as it was too small on smaller screens.  */
         margin: auto;
-        width:75%;
+        width:100%;
 }
-@media only screen and (min-width: 768px)and (max-width: 992px){
-    #companyLogo {
-    width:100%; /*make width 100% because the logo is squeezed into a sm-4 size col*/
-    }
-} 
 
 @media only screen and (min-width: 992px) and (min-resolution: 1dppx) {
     #companyLogo {
