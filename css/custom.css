@@ -155,11 +155,9 @@ p{
           padding-top:0px;
 }
 #companyLogo {
-   /* width:70%; this isn't good as it was too small on smaller screens.  */
-
-
+   /* width:75%; this isn't good as it was too small on smaller screens.  */
         margin: auto;
-        width:60%;
+        width:75%;
 }
 @media only screen and (min-width: 768px)and (max-width: 992px){
     #companyLogo {
@@ -913,14 +911,14 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
 #mossHouseMap{
      margin-top:15px;
 }
-
+/*
 @media only screen and (max-width:480px) {
 
     .hideOnSmallScreens {
         display: none;
     }
 }
-
+    */
 #partialsDiv{ /*includes index.html*/
 margin-top: 10px;
 margin-bottom:10px;
