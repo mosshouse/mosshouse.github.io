@@ -5,6 +5,9 @@ angular.module('router', ['ngRoute'])
          .when('/index', { templateUrl: 'infoLinks/partials/welcome.html' })
 
         .when('/accommodation', { templateUrl: 'infoLinks/partials/accommodation-bunclody.html' })
+
+     .when('/accommodation-bunclody', { templateUrl: 'infoLinks/partials/accommodation-bunclody.html' })
+
         .when('/rooms', { templateUrl: 'infoLinks/partials/accommodation.html' })
         .when('/rooms-carousel', { templateUrl: 'infoLinks/partials/accommodation-bunclody.html' })
 

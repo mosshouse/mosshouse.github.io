@@ -160,9 +160,16 @@ p{
         width:100%;
 }
 
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+    #companyLogo {
+             width:70%;
+    }
+}
+
+
 @media only screen and (min-width: 992px) and (min-resolution: 1dppx) {
     #companyLogo {
-        margin-left: 0px; /*to override the margin-auto default CSS rule which centers the logo. We want the logo to the left on desktops/ laptop screens*/
+        margin-left: 0px; /*to override the margin-auto default CSS rule (margin-auto, above), which centers the logo. We want the logo to the left on desktops/ laptop screens*/
     }
 }
 
