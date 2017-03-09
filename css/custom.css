@@ -12,6 +12,7 @@ body {
     color: #363636;
     text-rendering: optimizeLegibility;
     max-width: 1480px;
+
 }
 
 a:link, a:hover, a:active, a:visited {
@@ -149,10 +150,9 @@ p{
 
 /* -------------------   TOP NAVBAR  ------------------- */
 #logo{
-        padding-left:5px;
-     padding-right:5px;
-     padding-bottom:0px;
-          padding-top:0px;
+    margin-top:10px;
+          padding:10px;
+ 
 }
 #companyLogo {
    /* width:75%; this isn't good as it was too small on smaller screens.  */
@@ -180,17 +180,10 @@ p{
     }
 }
 
-/*Mobile screens, move the logo to the center of the col */
-
-{
-    #companyLogo {
-    }
-
-}
-
 
 #customNav {
     margin-bottom:8px;
+
 }
 
 
@@ -484,9 +477,14 @@ margin-right: -4px;
  line-height: 50px;
         height: 50px;
         font-family: RobotoCondensed-Regular, 'Century Gothic', 'Core Sans N 25', 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
-    font-size: 1.4em;
+    font-size: 1.2em;
         }
 
+@media only screen and (min-width: 768px) {
+.navLinkBoxes .media-body{
+        font-size: 1.5em;
+    }
+}
 .navLinkBoxes .icon_sosa {
     /*color: #337ab7; Default bootstrap link colour*/
    /* font-size: 2.5em; */
@@ -500,7 +498,7 @@ margin-right: -4px;
 
 
 #allContentUnderNavBar {
- background-color:#F2F2F3  ;
+ background-color:#f2f2f2  ;
     margin-top:10px;
 
 }
