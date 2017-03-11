@@ -3,6 +3,8 @@ angular.module('router', ['ngRoute'])
 .config(function ($routeProvider) { //Angular dependancy injection 
     $routeProvider
          .when('/index', { templateUrl: 'infoLinks/partials/welcome.html' })
+               .when('/index-page-carousel', { templateUrl: 'infoLinks/partials/welcome.html' })
+
 
         .when('/accommodation', { templateUrl: 'infoLinks/partials/accommodation-bunclody.html' })
 
